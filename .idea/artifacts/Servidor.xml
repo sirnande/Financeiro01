@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Servidor">
+    <output-path>$PROJECT_DIR$/out/artifacts/Servidor</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Servidor/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Servidor" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="apis" />
+          <element id="file-copy" path="$USER_HOME$/apis/org.apache.felix.webconsole-1.2.2.jar" />
+          <element id="library" level="project" name="commons-io-2" />
+          <element id="library" level="project" name="org.apache.commons.fileupload" />
+          <element id="library" level="project" name="common-lang3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
